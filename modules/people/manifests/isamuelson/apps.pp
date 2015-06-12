@@ -51,4 +51,7 @@ class people::isamuelson::apps (
   package { 'flux':
     provider => 'brewcask'
   }
+  package { 'slack':
+    provier => 'brewcask'
+  }
 }
