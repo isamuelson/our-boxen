@@ -38,6 +38,7 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "osx",         "2.8.0"
 github "homebrew",    "1.13.0"
 github "brewcask",    "0.0.6"
 github "dnsmasq",     "2.0.1"
@@ -78,4 +79,4 @@ github "atom",        "1.2.0"
 github "sourcetree",  "1.0.0"
 github "karabiner",   "1.0.7"
 github "seil",        "1.0.3"
-github "packer"       "1.3.0"
+github "packer",      "1.3.0"
