@@ -7,8 +7,8 @@ class people::isamuelson::apps (
 
   #### development
   include godev
-  include terraform
-  include vagrantdev
+  #include terraform
+  #include vagrantdev
   include sublime_text
   package { 'mono': }
   package { 'wget': }
