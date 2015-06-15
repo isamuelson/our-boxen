@@ -15,7 +15,7 @@ class people::isamuelson::apps (
   sublime_text::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
-  include atom
+  #  include atom
   include sourcetree
   package { 'dash':
     provider => 'brewcask'
@@ -52,6 +52,6 @@ class people::isamuelson::apps (
     provider => 'brewcask'
   }
   package { 'slack':
-    provier => 'brewcask'
+    provider => 'brewcask'
   }
 }
